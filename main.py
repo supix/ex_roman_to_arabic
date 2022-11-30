@@ -16,5 +16,6 @@ def convert_roman_to_arabic(roman: str) -> str:
         if b==-1:
             raise ValueError        
         else:
+            #somma il valore della stringa con quello precedente
             c+=b
     return str(c)
