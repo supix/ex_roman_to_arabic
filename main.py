@@ -15,4 +15,6 @@ def convert_roman_to_arabic(roman: str) -> str:
         b=dict.get(roman[i],-1)
         if b==-1:
             raise ValueError        
+        else:
+            c+=b
     return str(c)
